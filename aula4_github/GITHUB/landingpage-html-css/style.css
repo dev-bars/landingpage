@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2? family= Righteous & family= Sarala & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(101deg, #404ECB 21.52%, #2D8EE9 77.16%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.imagem-cabecalho {
+    height: 72px;
+}
+
+.menu-navegacao-cabecalho {
+    display: flex;
+    gap: 32px;
+}
+
+.item-menu-cabecalho {
+    color: #FFF2E7;
+text-align: center;
+font-family: Sarala;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.principal {
+    border-top: 0.4px solid #FFF2E7;
+    margin-bottom: 48px;
+}
+
+.cima-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 24px;
+    gap: 72px;
+ 
+
+}
+
+.principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+
+.titulo-h1 {
+color: #FFF2E7;
+font-family: Righteous;
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.subtitulo-h2 {
+ 
+color: #ECD6C4;
+
+font-family: Sarala;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+ }
+
+
+ .botao-me-adicione {
+border-radius: 8px;
+background: #E41E7D;
+box-shadow: 4px 5px 4px 0px rgba(0, 0, 0, 0.25);
+width: 160px;
+height: 40px;
+flex-shrink: 0;
+border: none;
+
+color: #FFF;
+
+text-align: center;
+font-family: Sarala;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+ }
+
+ .principal-imagem-sorrindo {
+height: 380px;
+ }
+
+
+ .baixo-pincipal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+ }
+
+
+ .subsubtitulo-h3 {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+
+    color: #FFF2E7;
+
+text-align: center;
+font-family: Righteous;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+ }
+
+ .paragrafo-baixo {
+color: #ECD6C4;
+text-align: center;
+font-family: Sarala;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+
+ }
+
+.rodape {
+    border-top: 0.4px solid #FFF2E7;
+    margin-bottom: 48px;
+    padding: 48px;
+}
+
+ .botão-agendarconsulta  {
+      
+    display: block;
+    margin: 0 auto;
+    width: 523px;
+    padding: 20px 8.591px;
+    justify-content: center;
+    align-items: center;
+    gap: 8.591px;
+    border: none;
+
+    border-radius: 8px;
+background: #E41E7D;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+color: #FFF;
+text-align: center;
+font-family: Sarala;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 21.6px */
+letter-spacing: -0.18px;
+
+ }
+
+ 
